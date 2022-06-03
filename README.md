@@ -1,2 +1,2 @@
-# PatrickNiccolai1.github.io
+# PatrickNiccolai.github.io
 Personal Website
