@@ -1,0 +1,75 @@
+#profilePic {
+	width: 25%;
+	height: auto;
+	border-radius: 8px;
+	float: left;
+}
+
+#introParagraph{
+	width: 75%;
+	float: right;
+}
+
+#headerObject{
+	width: 100%;
+}
+
+#headerP{
+	font-size: 2.5em;
+	font-weight: bold;
+	text-align: center;
+	width: 100%;
+	height: 0;
+}
+
+
+#headerP:before {
+  content: "";
+  display: block;
+  width: 25%;
+  height: 2px;
+  background: #00540;
+  left: 0;
+  top: 50%;
+  position: absolute;
+}
+
+#headerP:after {
+  content: "";
+  display: block;
+  width: 25%;
+  height: 2px;
+  background: #00540;
+  right: 0;
+  top: 50%;
+  position: absolute;
+}
+
+.topnav {
+  background-color: #00540B;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a.active {
+  background-color: white;
+  color: #00540B;
+}
+
+.topnav a:hover {
+  background-color: black;
+  color: white;
+}
+
+.project{
+	border-bottom: 3px solid;
+	border-bottom-color: #00540B;
+}
