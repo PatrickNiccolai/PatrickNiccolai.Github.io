@@ -45,6 +45,12 @@
   position: absolute;
 }
 
+#lastUpdated{
+  font-size: 1em;
+  bottom: 0;
+  position: absolute;
+}
+
 .topnav {
   background-color: #00540B;
   overflow: hidden;
