@@ -36,8 +36,9 @@
 </div>
 <div> 
   <script language="JavaScript">
-  var lastUpdated = document.lastModified;
-  document.writeln ("This page was last updated on " + lastUpdated);
+  var lastUpdated = new Date(document.lastModified);
+
+  document.writeln ("This page was last updated on " + lastUpdated.toDateString());
 </script>
 </div> 
 </body>
